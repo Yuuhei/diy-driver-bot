@@ -67,7 +67,7 @@ async def send_search(message):
                     embed.add_field(name="Tuning Difficulty (1-5 scale)", value=tuning_diff)
                     embed.add_field(name="Price (in USD)", value=price)
                     embed.set_image(url=driver_image)
-                    embed.set_footer(text="Placeholder Name - name TBA", icon_url=client.user.avatar_url)
+                    embed.set_footer(text="Driver Bot - still under development.", icon_url=client.user.avatar_url)
                     await message.channel.send(embed=embed)
                     found = True  # set the flag to indicate that a matching file was found
 
@@ -82,7 +82,7 @@ async def send_help_message(message):
     embed.add_field(name=prefix + "search [term]", value="Searches for a driver with the specified term in its name or description. Prints all matching search terms.")
     embed.add_field(name=prefix + "info", value="Shows developer info.")
     embed.add_field(name=prefix + "help", value="Displays this help message.")
-    embed.set_footer(text="Driver Bot", icon_url=client.user.avatar_url)
+    embed.set_footer(text="Driver Bot - still under development.", icon_url=client.user.avatar_url)
     await message.channel.send(embed=embed)
 
 #Bot Info command
@@ -91,7 +91,7 @@ async def send_info_message(message):
     embed.add_field(name="Created by", value="Aspidiske#8080")
     embed.add_field(name="Fork or Contribute on GitHub!", value="[GitHub Link](https://github.com/Yuuhei/diy-driver-bot)")
     embed.add_field(name="Join my Discord Server! (Acts as a support server too)", value="[Click Here!](https://discord.gg/mj2jbz3RWw)")
-    embed.set_footer(text="Driver Bot", icon_url=client.user.avatar_url)
+    embed.set_footer(text="Driver Bot - still under development.", icon_url=client.user.avatar_url)
     await message.channel.send(embed=embed)
 
 client.run(token)
