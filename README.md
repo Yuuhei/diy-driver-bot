@@ -8,7 +8,7 @@ Add your token in `config.json`, configure your preferred suffix (yes still usin
 
 Run `main.py`
 
-That's it. test your bot on your server to see if it works.
+That's it. test your bot on your server to see if it works. (Assuming your bot is already joined your server.)
 
 # Contribution
 This entire code is WIP, so some major changes can happen. Also i'm still noob at coding, please spare me UwU
