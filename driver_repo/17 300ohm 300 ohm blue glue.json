@@ -1,0 +1,11 @@
+{
+    "driver_name": "300ohm Blue Glue",
+    "description": "Midcentric, rolled off to both ends no matter the tuning. It needs a good amount of pressure to work properly. SQ is very good.",
+    "brand_model": "Blur MX300 Series",
+    "stock_tuning": "Midcentric",
+    "ohm": "300ohms",
+    "driver_size": "15.4mm",
+    "tuning_diff": "4",
+    "price": "10-15$",
+    "driver_image": "https://ae01.alicdn.com/kf/HTB1_somaG61gK0jSZFlq6xDKFXaq/300-Ohm-High-Resistance-N52-Magnetic-HiFi-Headphone-Loudspeaker-15-4mm-3-Frequency-Headphone-Driver-Unit.jpg_Q90.jpg_.webp"
+}

@@ -1,0 +1,11 @@
+{
+    "driver_name": "300ohm White Glue",
+    "description": "Similar to the 300ohm BG but with more mid-bass.",
+    "brand_model": "QIGOM White Lotus",
+    "stock_tuning": "Dark/Midcentric (Midbass focused)",
+    "ohm": "300ohms",
+    "driver_size": "15.4mm",
+    "tuning_diff": "3",
+    "price": "10-15$",
+    "driver_image": "https://ae01.alicdn.com/kf/H7b9e07e2c472441c9f9f840a5d0cbc37I/QIGOM-Hot-Mx500-Unit-300-Ohm-High-Impedance-Flat-Head-Warm-Voice-Earphone-Speaker-Bass-Thick.jpg_Q90.jpg_.webp"
+}

@@ -1,0 +1,11 @@
+{
+    "driver_name": "32ohm Ti Composite",
+    "description": "Weird stock tuning, overly bright with good midbass punch.",
+    "brand_model": "None",
+    "stock_tuning": "Bright",
+    "ohm": "32ohms",
+    "driver_size": "14.8mm",
+    "tuning_diff": "5",
+    "price": "0-5$",
+    "driver_image": "https://ae01.alicdn.com/kf/H83486cfc9ab74aabbe9b0f8caa1ce677G/14-8mm-32-Ohm-Speaker-Unit-Flat-Earphones-DIY-Titanium-Diaphragm-Earbuds-Drivers-116dB-2pcs.jpg_Q90.jpg_.webp"
+}

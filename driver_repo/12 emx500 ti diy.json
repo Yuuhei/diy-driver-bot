@@ -1,0 +1,11 @@
+{
+    "driver_name": "32/64ohm Emx500 Ti DIY",
+    "description": "Full Ti version, compared to standard EMX500, it has less sparkly treble, better bodied bass and the same above average SQ and imaging.",
+    "brand_model": "None",
+    "stock_tuning": "V-Shaped (Smooth treble)",
+    "ohm": "32/64ohm",
+    "driver_size": "15.4mm",
+    "tuning_diff": "1",
+    "price": "0-5$",
+    "driver_image": "https://ae01.alicdn.com/kf/Hbcddc192767f4c4491e0d6c58684e543B/15-4mm-Titanium-Diaphragm-32-Ohm-64-Ohm-Earphones-Speaker-Unit-MX500-DIY-Flat-Earbuds-Drivers.jpg_Q90.jpg_.webp"
+}

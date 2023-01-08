@@ -1,0 +1,11 @@
+{
+    "driver_name": "64ohm White Glue",
+    "description": "Midcentric with a midbass bump. Very smooth. Cheap out of spec faceplates.",
+    "brand_model": "Blur MX64 Series",
+    "stock_tuning": "Midcentric (Midbass focused)",
+    "ohm": "64ohms",
+    "driver_size": "15.4mm",
+    "tuning_diff": "3",
+    "price": "0-5$",
+    "driver_image": "https://ae01.alicdn.com/kf/H44825e1d687b44f2b0614e45ce1e1d6fu/15-4mm-64-ohm-Flat-HiFi-Headphone-Driver-Unit-for-MX500-Balanced-Super-Bass-Headphone-Loudspeaker.jpg_Q90.jpg_.webp"
+}
