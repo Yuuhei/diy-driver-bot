@@ -15,7 +15,7 @@ This entire code is WIP, so some major changes can happen. Also i'm still noob a
 
 You can push a driver info in .json file if you want, just follow the `template.json` inside `driver-repo` folder.
 
-Also, search result is based on file name, so be specific on that (add keywords that user might search, eg: `120ohm beryllium driver kaph white glue.json`)
+Also, search result is based on file name, so be specific on that (add keywords that user might search, eg: `120ohm beryllium driver kaph white glue.json` something like that.)
 
 # Support
 You can join my Discord Server for support and everything else as long as it's audio gear topic.
