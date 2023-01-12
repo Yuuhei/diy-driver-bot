@@ -4,14 +4,20 @@
 # Setup
 Install requirements.txt `pip3 install -r requirements.txt`
 
-Add your token in `config.json`, configure your preferred suffix (yes still using suffix in 2023, f*ck slash commands)
+Add your token in `config.json`.
+
+Configure your preferred suffix in `suffix` (yes still using suffix in 2023, f*ck slash commands) and status
+
+Add your preferred bot response channel in `channel_id`.
+
+Put preferred bot response channel name in `channel_name`
 
 Run `main.py`
 
 That's it. test your bot on your server to see if it works. (Assuming your bot is already joined your server.)
 
 # Contribution
-This entire code is WIP, so some major changes can happen. Also i'm still noob at coding, please spare me UwU
+This entire code is WIP, so some major changes can happen. Also i'm still noob at coding (specifically python), please spare me UwU
 
 You can push a driver info in .json file if you want, just follow the `template.json` inside `driver-repo` folder.
 
