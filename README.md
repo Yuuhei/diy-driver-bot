@@ -6,7 +6,7 @@ Install requirements.txt `pip3 install -r requirements.txt`
 
 Add your token in `config.json`.
 
-Configure your preferred suffix in `suffix` (yes still using suffix in 2023, f*ck slash commands) and status
+Configure your preferred suffix in `prefix` (yes still using prefix in 2023, f*ck slash commands) and status
 
 Add your preferred bot response channel in `channel_id`.
 
