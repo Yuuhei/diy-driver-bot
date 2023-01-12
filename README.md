@@ -25,4 +25,9 @@ Also, search result is based on file name, so be specific on that (add keywords 
 
 # Support
 You can join my Discord Server for support and everything else as long as it's audio gear topic.
+
+Normal URL:
 https://discord.gg/mj2jbz3RWw
+
+Vanity URL:
+https://discord.gg/soundbytesph
