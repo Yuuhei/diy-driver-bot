@@ -1,5 +1,7 @@
 {
-    "token": "YOUR TOKEN HERE",
-    "prefix": "!",
-    "status": "YOUR STATUS HERE"
+    "token": "",
+    "prefix": "",
+    "status": "",
+    "channel_id": "",
+    "channel_name": ""
 }

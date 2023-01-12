@@ -9,6 +9,9 @@ config = json.loads(config)
 token = config["token"]
 prefix = config["prefix"]
 presence = config["status"]
+ch_name = config["channel_name"]
+ch_id = config["channel_id"]
+
 
 intents = discord.Intents().default()
 client = discord.Client(command_prefix=prefix, intents=intents)
@@ -20,6 +23,11 @@ async def on_ready():
 @client.event
 async def on_message(message):
     if message.author == client.user:
+        return
+    if not message.content.startswith(prefix):
+        return
+    if message.channel.name != f"{ch_name}":
+        await message.channel.send(f"Sorry! This command can only be used in <#{ch_id}> channel!")
         return
 
     #Command List:
@@ -33,17 +41,16 @@ async def on_message(message):
 # Driver Search command
 async def send_search(message):
     if message.content.startswith(prefix + 'search'):
-        search_term = message.content[8:]  # get the search term by slicing the message content
-        if not search_term:  # check if search_term is an empty string
-            # create an embed to indicate that no search term was provided
+        search_term = message.content[8:]
+        if not search_term:
             embed = discord.Embed(title="Error", description=f"Please specify a search term after the **{prefix}search** command.", color=0xff0000)
             await message.channel.send(embed=embed)
-            return  # return early
-        now = datetime.datetime.now()  # get the current time
-        timestamp = now.strftime("%Y-%m-%d %H:%M:%S")  # format the time as a string
+            return
+        now = datetime.datetime.now()
+        timestamp = now.strftime("%Y-%m-%d %H:%M:%S")
         print("[{}] User: {}#{} searched: {}".format(timestamp, message.author.name, message.author.discriminator, search_term))
-        search_term = message.content[8:]  # get the search term by slicing the message content
-        found = False  # flag to track if a matching file was found
+        search_term = message.content[8:]
+        found = False
         for file in os.listdir("driver_repo"):
             if search_term in file:
                 with open(os.path.join("driver_repo", file)) as f:
@@ -69,10 +76,9 @@ async def send_search(message):
                     embed.set_image(url=driver_image)
                     embed.set_footer(text="Driver Bot - still under development.", icon_url=client.user.avatar_url)
                     await message.channel.send(embed=embed)
-                    found = True  # set the flag to indicate that a matching file was found
+                    found = True
 
         if not found:
-            # create an embed to indicate that no matching file was found
             embed = discord.Embed(title="Error", description="No driver found for search term: {}".format(search_term), color=0xff0000)
             await message.channel.send(embed=embed)
 
