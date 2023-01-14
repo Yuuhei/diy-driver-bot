@@ -1,6 +1,7 @@
 import datetime
 import discord
 import json
+import asyncio
 import os
 
 with open("config.json") as f:
@@ -27,7 +28,9 @@ async def on_message(message):
     if not message.content.startswith(prefix):
         return
     if message.channel.name != f"{ch_name}":
-        await message.channel.send(f"Sorry! This command can only be used in <#{ch_id}> channel!")
+        bot_msg = await message.channel.send(f"Sorry! This command can only be used in <#{ch_id}> channel!")
+        await asyncio.sleep(5)
+        await bot_msg.delete()
         return
 
     #Command List:
