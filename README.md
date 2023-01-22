@@ -1,5 +1,5 @@
 # DIY Driver Bot
-A simple Discord bot written in Python for [SoundBytes PH](https://discord.gg/soundbytesph).
+A simple Discord bot that shows ~~useful~~ information for DIY earbud drivers written in Python for [SoundBytes PH](https://discord.gg/soundbytesph).
  
 # How does it work?
 When a user search a specific driver term/specs/driver characteristics (ex: `blue glue`), this code will search the `driver-repo` folder for `.json` file name that matches the search term, then print that searched `.json` contents as a Discord embed.
